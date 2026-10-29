@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<meta name="description" content="Explore my portfolio, web development skills, creative projects, and contact information.">
+<meta name="theme-color" content="#f8f9ff">
+
+<title>My Portfolio | Creative Web Developer</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+```
+
+</head>
+
+<body>
+
+```
+<a href="#main-content" class="skip-link">
+    Skip to main content
+</a>
+
+<!-- Header -->
+<header class="header">
+    <div class="container navbar">
+
+        <a href="#home" class="logo" aria-label="My Portfolio home">
+            Port<span>folio.</span>
+        </a>
+
+        <nav class="navigation" id="navigation" aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button
+                type="button"
+                class="theme-toggle"
+                id="theme-toggle"
+                aria-label="Switch to dark theme"
+                aria-pressed="false">
+                <span id="theme-icon" aria-hidden="true">☾</span>
+            </button>
+
+            <button
+                type="button"
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-controls="navigation"
+                aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </div>
+</header>
+
+<main id="main-content">
+
+    <!-- Hero -->
+    <section class="hero section" id="home">
+
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+
+                <span class="badge">
+                    ● Available for opportunities
+                </span>
+
+                <p class="eyebrow">HELLO, I'M</p>
+
+                <h1>
+                    Your Name
+                    <span class="gradient-text">Creative Developer.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I design and develop modern, responsive, and
+                    accessible digital experiences using creative
+                    ideas and cutting-edge web technologies.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work <span aria-hidden="true">↗</span>
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Let's Talk
+                    </a>
+                </div>
+
+                <div class="hero-stats" aria-label="Portfolio highlights">
+
+                    <div>
+                        <strong>03+</strong>
+                        <span>Sample Projects</span>
+                    </div>
+
+                    <div>
+                        <strong>04</strong>
+                        <span>Core Skills</span>
+                    </div>
+
+                    <div>
+                        <strong>100%</strong>
+                        <span>Passion</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="visual-glow" aria-hidden="true"></div>
+
+                <div class="profile-card">
+
+                    <div class="profile-top">
+                        <span class="window-dot"></span>
+                        <span class="window-dot"></span>
+                        <span class="window-dot"></span>
+                        <span class="profile-label">MY PROFILE</span>
+                    </div>
+
+                    <div class="avatar" aria-hidden="true">
+                        YN
+                    </div>
+
+                    <h2>Your Name</h2>
+                    <p>Frontend Developer</p>
+
+                    <div class="code-card" aria-label="Example code">
+                        <p><span class="code-purple">const</span> developer = {</p>
+                        <p>&nbsp;&nbsp;creative: <span class="code-green">true</span>,</p>
+                        <p>&nbsp;&nbsp;focused: <span class="code-green">"you"</span>,</p>
+                        <p>&nbsp;&nbsp;building: <span class="code-orange">"the web"</span></p>
+                        <p>};</p>
+                    </div>
+
+                </div>
+
+                <div class="floating-card floating-one" aria-hidden="true">
+                    <span>✦</span> Creative
+                </div>
+
+                <div class="floating-card floating-two" aria-hidden="true">
+                    <span>⌘</span> Developer
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section class="section about-section" id="about">
+
+        <div class="container">
+
+            <header class="section-heading">
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+                <h2>Building Ideas Into <span class="gradient-text">Reality.</span></h2>
+                <p>
+                    Passionate about technology, design, and creating
+                    useful experiences for everyone.
+                </p>
+            </header>
+
+            <div class="about-grid">
+
+                <article class="about-card glass-card">
+                    <div class="card-icon" aria-hidden="true">✦</div>
+                    <h3>Who Am I?</h3>
+                    <p>
+                        I'm an aspiring web developer who enjoys building
+                        clean, beautiful, and user-friendly websites.
+                        I continuously learn new technologies and improve
+                        my development skills.
+                    </p>
+                </article>
+
+                <article class="about-card glass-card">
+                    <div class="card-icon" aria-hidden="true">◎</div>
+                    <h3>My Mission</h3>
+                    <p>
+                        My goal is to build digital experiences that
+                        combine modern design, excellent usability,
+                        responsive layouts, and accessibility.
+                    </p>
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills-section" id="skills">
+
+        <div class="container">
+
+            <header class="section-heading">
+                <p class="eyebrow">MY TOOLKIT</p>
+                <h2>Skills & <span class="gradient-text">Technologies.</span></h2>
+                <p>The tools I use to transform ideas into digital products.</p>
+            </header>
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+                    <div class="skill-icon html-icon" aria-hidden="true">5</div>
+                    <h3>HTML5</h3>
+                    <p>Semantic structure</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon css-icon" aria-hidden="true">3</div>
+                    <h3>CSS3</h3>
+                    <p>Responsive styling</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon js-icon" aria-hidden="true">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive interfaces</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon ui-icon" aria-hidden="true">UI</div>
+                    <h3>UI Design</h3>
+                    <p>User-focused design</p>
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects-section" id="projects">
+
+        <div class="container">
+
+            <header class="section-heading">
+                <p class="eyebrow">SELECTED WORK</p>
+                <h2>Featured <span class="gradient-text">Projects.</span></h2>
+                <p>A selection of sample projects demonstrating my skills.</p>
+            </header>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-art project-art-one" aria-hidden="true">
+                        <span class="project-number">01</span>
+                        <span class="project-symbol">&lt;/&gt;</span>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-category">WEB DEVELOPMENT</p>
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            A responsive portfolio website built to
+                            showcase skills, achievements, and projects.
+                        </p>
+
+                        <ul class="tag-list" aria-label="Technologies">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <a href="#contact" class="project-link">
+                            Discuss Project <span aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-art project-art-two" aria-hidden="true">
+                        <span class="project-number">02</span>
+                        <span class="project-symbol">✓</span>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-category">PRODUCTIVITY</p>
+                        <h3>Task Manager</h3>
+                        <p>
+                            A clean task management interface designed
+                            to help users organize everyday activities.
+                        </p>
+
+                        <ul class="tag-list" aria-label="Technologies">
+                            <li>HTML</li>
+                            <li>CSS Grid</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <a href="#contact" class="project-link">
+                            Discuss Project <span aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-art project-art-three" aria-hidden="true">
+                        <span class="project-number">03</span>
+                        <span class="project-symbol">✳</span>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-category">UI / UX</p>
+                        <h3>Creative Landing Page</h3>
+                        <p>
+                            A modern landing page focused on clear
+                            messaging, responsive layouts, and usability.
+                        </p>
+
+                        <ul class="tag-list" aria-label="Technologies">
+                            <li>Responsive</li>
+                            <li>Flexbox</li>
+                            <li>CSS3</li>
+                        </ul>
+
+                        <a href="#contact" class="project-link">
+                            Discuss Project <span aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+
+        <div class="container contact-grid">
+
+            <div class="contact-content">
+                <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+
+                <h2>
+                    Let's Create Something
+                    <span class="gradient-text">Amazing.</span>
+                </h2>
+
+                <p>
+                    Have an idea, a project, or an opportunity?
+                    Send me a message and let's connect.
+                </p>
+
+                <a href="mailto:your.email@example.com" class="contact-email">
+                    your.email@example.com
+                </a>
+            </div>
+
+            <form class="contact-form glass-card" id="contact-form">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input
+                            id="name"
+                            name="name"
+                            type="text"
+                            autocomplete="name"
+                            placeholder="Enter your name"
+                            required
+                            minlength="2"
+                            maxlength="100">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            autocomplete="email"
+                            placeholder="you@example.com"
+                            required
+                            maxlength="254">
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input
+                        id="subject"
+                        name="subject"
+                        type="text"
+                        placeholder="Project inquiry"
+                        required
+                        maxlength="150">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Tell me about your idea..."
+                        required
+                        minlength="10"
+                        maxlength="2000"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary submit-btn">
+                    Send Message <span aria-hidden="true">↗</span>
+                </button>
+
+                <p id="form-status" class="form-status" role="status"
+                   aria-live="polite"></p>
+
+                <p class="form-note">
+                    Demo form: messages are not sent to a server.
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container footer-inner">
+
+        <a href="#home" class="logo footer-logo">
+            Port<span>folio.</span>
+        </a>
+
+        <p>
+            &copy; <span id="current-year">2026</span> Your Name.
+            Built with creativity.
+        </p>
+
+        <a href="#home" class="back-top">
+            Back to top ↑
+        </a>
+
+    </div>
+</footer>
+```
+
+</body>
+</html>
